@@ -131,11 +131,10 @@ p {
     margin-bottom:20px; 
     font-size: 18px;
     color: black;
-    background-color: white;
     }
 
 h1,h2,h3,h4,h5,h6 { 
-    margin:20px 0px; 
+    margin: 0px; 
     color: #000; 
     text-align: center;
     font-family: 'futura', sans-serif;
@@ -158,6 +157,7 @@ h1{
 
 h2{ 
     font-size:40px;
+    line-height: 60px;
     color: #000; 
     text-transform: uppercase;
     }
@@ -253,13 +253,23 @@ box-shadow: 0px 2px 4px rgba(50, 50, 50, 0.3);
 
 #index3{
     background-color: #b2dfe1;
-    height: 600px;
     margin-bottom: 50px;
     border-bottom: 25px solid black;
 }
 
+#index3 p{
+    width: 900px;
+    color: white;
+    font-size: 24px;
+    line-height: 32px;
+    margin:0 auto;
+    padding: 50px 0px;
+    height: 300px;
+}
+
 .divider{
     padding-top:100px;
+    padding-bottom: 100px;
     height: 400px;
     background-color: #fff;
     border-bottom: 25px solid black;
@@ -291,36 +301,7 @@ box-shadow: 0px 2px 4px rgba(50, 50, 50, 0.3);
 }
 
 
-#notes-single{
-    font-size:18px;
-    line-height:35px;
-    font-family: futura, Verdana, serif;
-    text-align:justify;
-    padding-bottom: 100px;
-    margin-bottom:14px;
-    display:block;
-}
 
-.notes-column-left{
-    width:435px;
-    margin-right:30px;
-    float:left;
-    font-family: futura, Verdana, sans-serif;
-    text-align:justify;
-    margin-bottom:14px;
-    padding-bottom: 100px;
-    display:inline-block;
-}
-
-.notes-column-right{
-    width:435px;
-    float:left;
-    display:inline-block;
-    font-family: futura, Verdana, sans-serif;
-    text-align:justify;
-    margin-bottom:14px;
-    padding-bottom: 100px;
-}
 
 
 
